@@ -1,0 +1,169 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    position:sticky;
+    
+}
+.Nav div ul{
+    display: flex;
+    gap: 20px;
+}
+.Nav div ul li{
+    font-size: large;
+    font-family:monospace;
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    
+}
+.Nav div ul li a{
+    text-decoration: none;
+    color: black;
+}
+.Nav div ul li a:hover{
+    text-decoration:underline;
+    color: black;
+}
+Nav div button {
+    width: 100px;
+    height: 40px;
+    border-radius:15%;
+    
+    border:2px solid;
+}
+Nav div button a{
+    font-family: Bitcount Grid Single;
+    text-decoration: none;
+    color: black;
+}
+Nav div button:hover {
+   background-color: chocolate;
+   color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0688af;
+    color: #333;
+    line-height: 1.6;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.contact-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-container p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+    background-color: #555;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.815);
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    margin-top: 30px;
+    color: white;
+}
+h3{
+    color: whitesmoke;
+}
+.footer {
+    margin-top: 20px;
+    background-color: #333333bd;
+    color: white;
+    text-align: center;
+    padding: 20px;
+backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: space-between;
+}
+.anc:hover{
+  text-decoration: underline;
+
+}footer{
+    background-color: rgba(0, 0, 0, 0.815);
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    margin-top: 30px;
+    color: white;
+}
+h3{
+    color: whitesmoke;
+}
+.footer {
+    margin-top: 20px;
+    background-color: #333333bd;
+    color: white;
+    text-align: center;
+    padding: 20px;
+backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: space-between;
+}
+.anc:hover{
+  text-decoration: underline;
+
+}

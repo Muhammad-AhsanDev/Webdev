@@ -1,0 +1,134 @@
+*{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+
+.Nav{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(255, 255, 255);
+    align-items: center;
+    position:sticky;
+    
+}
+.Nav div ul{
+    display: flex;
+    gap: 20px;
+}
+.Nav div ul li{
+    font-size: large;
+    font-family:monospace;
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    
+}
+.Nav div ul li a{
+    text-decoration: none;
+    color: black;
+}
+.Nav div ul li a:hover{
+    text-decoration:underline;
+    color: black;
+}
+Nav div button {
+    width: 100px;
+    height: 40px;
+    border-radius:15%;
+    font-family: Bitcount Grid Single;
+    border:2px solid;
+}
+Nav div button a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+Nav div button a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+Nav div button:hover {
+   background-color: rgb(6, 38, 221);
+   color: rgb(255, 255, 255);
+}
+/* Reset */
+
+h1{
+margin-left: 150px;
+}
+
+.imgages{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 1px;
+   
+    
+}
+.background{
+     background-color: rgba(151, 140, 140, 0.185);
+    backdrop-filter: blur(8px);
+    border-radius: 30px;
+    border:1px rgba(255, 255, 255, 0.349) solid;
+    width:max-content;
+    height:fit-content;
+    margin: 13%;
+    
+}
+.Sec{
+    padding: 30px;
+     background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  background-size: cover;
+  background-attachment: fixed;
+    
+    
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 90px;
+    border: 1px rgba(255, 255, 255, 0.281) solid;
+}
+img:hover{
+   
+     box-shadow: 5px 5px 5px 5px rgb(47, 248, 255);
+}
+#me{
+    width: 250px;
+    height: 250px;
+}
+#me:hover{
+    box-shadow: 5px 5px 5px 5px rgba(1, 162, 255, 0.938);
+}
+
+.Goals{
+       background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  background-size: cover;
+  background-attachment: fixed;
+    
+}
+
+
+
+
+
+
+
+/* Footer */
+.footer {
+    background-color: #333333bd;
+    color: white;
+    text-align: center;
+    padding: 20px;
+backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: space-between;
+}
+.anc:hover{
+  text-decoration: underline;
+
+}

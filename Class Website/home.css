@@ -1,0 +1,186 @@
+*{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+
+.Nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    position:sticky;
+    
+}
+.Nav div ul{
+    display: flex;
+    gap: 20px;
+}
+.Nav div ul li{
+    font-size: large;
+    font-family:monospace;
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    
+}
+.Nav div ul li a{
+    text-decoration: none;
+    color: black;
+}
+.Nav div ul li a:hover{
+    text-decoration:underline;
+    color: black;
+}
+Nav div button {
+    width: 100px;
+    height: 40px;
+    border-radius:15%;
+    font-family: Bitcount Grid Single;
+    border:2px solid;
+}
+Nav div button a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+Nav div button a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+Nav div button:hover {
+   background-color: rgb(6, 38, 221);
+   color: rgb(255, 255, 255);
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url(./images/backgroung.jpeg); /* Replace with a real image URL */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-content{
+    backdrop-filter: blur(5px);
+    height: 210px;
+    border-radius: 20px;
+}
+.hero-content h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background-color: #00aeff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    
+}
+
+.hero .btn:hover {
+    background-color: #0073bf;
+}
+
+/* Services Section */
+.services {
+    background-image: url(./images/blacksand.jpg);
+    background-size: contain;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.services h2 {
+    color: whitesmoke;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.692);
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* About Section */
+.about {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 20px;
+    color: #555;
+}
+
+/* Footer */
+.footer {
+    background-color: #333333bd;
+    color: white;
+    text-align: center;
+    padding: 20px;
+backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: space-between;
+}
+.anc:hover{
+  text-decoration: underline;
+
+}

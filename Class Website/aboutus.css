@@ -1,0 +1,140 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    
+}
+.Nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    position:sticky;
+    
+}
+.Nav div ul{
+    display: flex;
+    gap: 20px;
+}
+.Nav div ul li{
+    font-size: large;
+    font-family:monospace;
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    
+}
+.Nav div ul li a{
+    text-decoration: none;
+    color: black;
+}
+.Nav div ul li a:hover{
+    text-decoration:underline;
+    color: black;
+}
+Nav div button {
+    width: 100px;
+    height: 40px;
+    border-radius:15%;
+    font-family: Bitcount Grid Single;
+    border:2px solid;
+}
+Nav div button:hover {
+   background-color: chocolate;
+   color: white;
+}
+
+/* Navigation - Add custom styles for your navbar here */
+header {
+    /* Add custom styles for your navigation bar */
+}
+
+/* About Section */
+.about-section {
+    padding: 60px 0;
+background-image: url(./images/blacksand.jpg);
+background-size: cover;
+    text-align: center;
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+.about-header p {
+    font-size: 20px;
+    color: whitesmoke;
+    margin-bottom: 40px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+.about-description {
+    width: 60%;
+    text-align: left;
+    color: whitesmoke;
+    backdrop-filter: blur(5px);
+    border-radius: 8px;
+    padding-left: 3px;
+
+}
+
+.about-description h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about-description ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.about-description ul li {
+    font-size: 18px;
+    margin: 10px 0;
+    color: whitesmoke;
+}
+
+
+/* Footer */
+footer {
+    background-color: #333333bd;
+    color: white;
+    text-align: center;
+    padding: 20px;
+backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: space-between;
+}
+.anc:hover{
+  text-decoration: underline;
+
+}
+

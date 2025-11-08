@@ -1,0 +1,51 @@
+body{
+    background-image: url(./images/blacksand.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(83, 83, 82, 0.493);
+    backdrop-filter: blur(15px);
+    margin-left: 30%;
+    margin-top: 10%;
+    border-radius: 10%;
+}
+#Text{
+    padding-top: 120px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+input{
+    height: 30px;
+    color: rgb(232, 0, 253);
+    background-color: rgba(128, 128, 128, 0.048);
+    border: 1px;
+    border-style:dotted;
+    border-color: white;
+
+}
+h1{
+    position: relative;
+    left: 50px;
+    color: whitesmoke;
+}
+button{
+    position: relative;
+    top: 20px;
+    left: 60px;
+    background-color: rgba(0, 0, 0, 0.781);
+    border: none;
+    border-radius: 20%;
+    height: 30px;
+    width: 80px;
+}
+button:hover{
+    background-color: white;
+}
+#Submit{
+    text-decoration: none;
+    color: purple;
+}

@@ -1,0 +1,155 @@
+*{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+body{
+    
+     background-image:url(./images/backgroung.jpeg) ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+ 
+}
+.Nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    position:sticky;
+    
+}
+.Nav div ul{
+    display: flex;
+    gap: 20px;
+}
+.Nav div ul li{
+    font-size: large;
+    font-family:monospace;
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    
+}
+.Nav div ul li a{
+    text-decoration: none;
+    color: black;
+}
+.Nav div ul li a:hover{
+    text-decoration:underline;
+    color: black;
+}
+Nav div button {
+    width: 100px;
+    height: 40px;
+    border-radius:15%;
+    
+    border:2px solid;
+}
+Nav div button a{
+    font-family: Bitcount Grid Single;
+    text-decoration: none;
+    color: black;
+}
+Nav div button:hover {
+   background-color: chocolate;
+   color: white;
+}
+/* HEADER*/
+header{
+    
+   
+    display: flex;
+    justify-content: space-between;
+    background: rgba(151, 150, 150, 0.356);
+
+  /* The "frosty glass" effect */
+  backdrop-filter: blur(8px);
+  height: 550px;
+
+}
+.Introduction{
+    width: 400px;
+    height: 500px;
+    padding-top: 180px;
+    margin-left: 20px;
+}
+.Introduction h1:hover{
+    color: rgb(0, 140, 255);
+}
+.Introduction h1{
+    color: whitesmoke;
+    text-shadow: 10px 5px 5px rgba(0, 0, 0, 0.39);
+    
+}
+.Introduction p{   
+    font-family:Bitcount Grid Single;
+    
+    color: whitesmoke;
+    text-shadow: 10px 5px 5px rgba(0, 0, 0, 0.589);
+
+}
+.Introduction p:hover{
+    font-family:Bitcount Grid Single;
+    -webkit-text-stroke: 0.5px black; 
+    color: rgb(0, 0, 0);
+    font-size: large;
+}
+.Introduction button {
+    width: 100px;
+    height: 40px;
+    border-radius:15%;
+    background-color: rgb(5, 176, 243);
+    border:2px solid;
+}
+.Introduction button a{
+    font-family: Bitcount Grid Single;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.Introduction button:hover {
+   background-color: rgb(24, 105, 170);
+   color: white;
+}
+
+img{
+    padding-top: 40px;
+    width: 800px;
+    height: 500px;
+    padding-right: 30px;
+    box-shadow: 10px 10px 10px;
+    border-radius: 20%;
+    box-sizing:border-box;
+
+
+   
+}
+footer{
+    
+    background-color: rgba(0, 0, 0, 0.815);
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    margin-top: 30px;
+    color: white;
+}
+h3{
+    color: whitesmoke;
+}
+.footer {
+    margin-top: 20px;
+    background-color: #333333bd;
+    color: white;
+    text-align: center;
+    padding: 20px;
+backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: space-between;
+}
+.anc:hover{
+  text-decoration: underline;
+
+}

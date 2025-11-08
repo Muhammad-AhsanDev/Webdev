@@ -1,0 +1,21 @@
+.Cars{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    background-color: rgb(71, 70, 70);
+    height: fit-content;
+}
+.footer {
+    margin-top: 20px;
+    background-color: #333333bd;
+    color: white;
+    text-align: center;
+    padding: 20px;
+backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: space-between;
+}
+.anc:hover{
+  text-decoration: underline;
+
+}

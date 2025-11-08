@@ -1,0 +1,134 @@
+*{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+body{
+        background-image: url(./images/wallblue.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.Nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    position:sticky;
+    
+}
+.Nav div ul{
+    display: flex;
+    gap: 20px;
+}
+.Nav div ul li{
+    font-size: large;
+    font-family:monospace;
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    
+}
+.Nav div ul li a{
+    text-decoration: none;
+    color: black;
+}
+.Nav div ul li a:hover{
+    text-decoration:underline;
+    color: black;
+}
+Nav div button {
+    width: 100px;
+    height: 40px;
+    border-radius:15%;
+    
+    border:2px solid;
+}
+Nav div button a{
+    font-family: Bitcount Grid Single;
+    text-decoration: none;
+    color: black;
+}
+Nav div button:hover {
+   background-color: chocolate;
+   color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.glass{
+    background-color: rgba(161, 161, 161, 0.274);
+    backdrop-filter: blur(8px);
+    width: 430px;
+    height: fit-content;
+    border-radius: 3%;
+    color: aliceblue;
+    border: 1px solid rgba(245, 245, 245, 0.671);
+    margin-top: 30px;
+}
+h1{
+    font-family: Bitcount Grid Single;
+    font-size: 60px;
+    text-align: center;
+}
+footer{
+    
+    background-color: rgba(0, 0, 0, 0.815);
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    margin-top: 30px;
+    color: white;
+}
+h3{
+    color: whitesmoke;
+}
+.Scontainer{
+    display: flex;
+    justify-content: space-around;
+    height: 230px;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.411);
+    backdrop-filter: blur(8px);
+    border-radius: 30%;
+}
+#card1{
+    text-align: center;
+    height: fit-content;
+}
+p{
+    color: whitesmoke;
+}
+#card2{
+    text-align: center;
+}
+#card3{
+    text-align: center;
+}
+
+
+
+
+
+.footer {
+   
+    background-color: #333333bd;
+    color: white;
+    text-align: center;
+    padding: 20px;
+backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.anc:hover{
+  text-decoration: underline;
+
+}

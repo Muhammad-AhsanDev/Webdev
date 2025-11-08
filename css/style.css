@@ -1,0 +1,28 @@
+*{
+    background-color: blueviolet;
+}
+body{
+    background-color: yellowgreen;
+}
+h1{
+    background-color: aqua;
+    position: relative;
+    left: 50px;
+}
+h2,h3,h4,h5,h6{
+    color:salmon;
+}
+#heading{
+    font-family:BBH Sans Bartle;
+    font-size: 60px;
+
+}
+.subheading{
+    font-family:BBH Sans Bartle;
+    font-size: 40px;
+    color: violet;
+}
+a{
+    text-decoration: none;
+    color: yellow;
+}

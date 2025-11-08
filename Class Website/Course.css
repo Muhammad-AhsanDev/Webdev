@@ -1,0 +1,119 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+   background-image: url(./images/blacksand.jpg);
+   background-size: contain;
+   border-radius: 20%;
+}
+
+
+.course-overview {
+    background-color: #ffffff0a;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.container {
+
+    width: 80%;
+    margin: 0 auto;
+}
+
+.course-overview h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.course-overview p {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+
+.module {
+    backdrop-filter: blur(2px);
+    background-color: #ffffff05;
+    padding: 50px 0;
+    margin-left: 350px;
+    width: 500px;
+}
+.footer {
+    margin-top: 20px;
+    background-color: #333333bd;
+    color: white;
+    text-align: center;
+    padding: 20px;
+backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.anc:hover{
+  text-decoration: underline;
+
+}
+#iss{
+ background-image: url(./images/pins.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(100px);
+}
+
+.Nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    position:sticky;
+    
+}
+.Nav div ul{
+    display: flex;
+    gap: 20px;
+}
+.Nav div ul li{
+    font-size: large;
+    font-family:monospace;
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    
+}
+.Nav div ul li a{
+    text-decoration: none;
+    color: black;
+}
+.Nav div ul li a:hover{
+    text-decoration:underline;
+    color: black;
+}
+Nav div button {
+    width: 100px;
+    height: 40px;
+    border-radius:15%;
+    font-family: Bitcount Grid Single;
+    border:2px solid;
+}
+Nav div button:hover {
+   background-color: chocolate;
+   color: white;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+li{
+    list-style: circle;
+    
+  
+}

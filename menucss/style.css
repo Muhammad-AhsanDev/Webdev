@@ -1,0 +1,49 @@
+body {
+  background: url(./pexels-symeon-ekizoglou-1107605-2880718.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+    margin-left:300px;
+        width: 700px;
+        color:hsl(0, 0%, 100%);
+        font-size: xx-large;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+        position: sticky;
+}
+
+
+h3{
+     font-family: 'Playfair Display', serif;
+     font-size: larger;
+    color: #FFF8E7;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.685);
+}
+p{
+    
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.541);
+}
+#Starters{
+    margin-left:50px;
+}
+.menu-section {
+  background: rgba(255, 255, 255, 0.1); /* glass effect */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  padding: 20px 40px;
+  margin: 30px auto;
+  width: 70%;
+  backdrop-filter: blur(6px); /* modern glass effect */
+}
+hr {
+  border: none;
+  height: 1px;
+  background: rgba(255,255,255,0.3);
+  width: 90%;
+  margin: 10px auto;
+}
